@@ -1,0 +1,24 @@
+# -----------------------------------------------------------------------------
+# Corporate Data Audit Hub - Requirements Manifest
+# -----------------------------------------------------------------------------
+
+# Primary React/TypeScript client core workspace (Dependencies are automatically 
+# managed by package.json under the modern Node.js engine environment)
+# Major npm packages:
+#   xlsx ^0.18.5 (SheetJS Excel file parser & compiler)
+#   recharts ^2.12.0 (Responsive SVG Interactive graphing system)
+#   lucide-react ^0.354.0 (SVG Corporate vector iconography)
+#   motion ^12.23.24 (Visual micro-animations)
+
+# -----------------------------------------------------------------------------
+# Alternative Python Analytical Script equivalents:
+# (For teams wanting to script identical data profiles offline with Pandas/Plotly)
+# Run command: pip install -r requirements.txt
+# -----------------------------------------------------------------------------
+
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.13.0
+openpyxl>=3.1.0        # MS Excel workbook handling
+scikit-learn>=1.2.0    # Optional: For advanced mathematical cluster modeling
+streamlit>=1.22.0      # Web client rendering

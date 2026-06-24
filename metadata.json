@@ -1,0 +1,6 @@
+{
+  "name": "Excel Data Analyzer",
+  "description": "No-code dataset quality analysis, statistics, interactive dashboard, automatic insights, cleaning tools, and Excel report export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
